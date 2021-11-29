@@ -166,22 +166,30 @@ table {
 }
 
 .days ul {
+  margin: 0 auto;
   max-width: 882px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
 }
 .days ul li {
   padding: 20px 32px;
   border-radius: 100px;
   border: solid 1px transparent;
+  margin-right: 16px;
 }
 .days ul li a {
   text-decoration: none;
 }
 .days ul li:hover {
   border: solid 1px #ffffff;
+}
+
+#today {
+  background-color: #ffffff;
+}
+#today a {
+  color: #000000;
 }
 
 * {
@@ -221,6 +229,10 @@ body {
 .list .line .info {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+.list .line .info img {
+  margin-left: 8px;
 }
 
 /*# sourceMappingURL=main.css.map */
