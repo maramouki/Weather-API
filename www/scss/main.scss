@@ -3,6 +3,6 @@
 // @Import
 //----
 @import "base/reset";
-body {
-	background-color: red;
-}
+@import "components/button";
+@import "components/search";
+@import "page/home";
