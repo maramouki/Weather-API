@@ -141,22 +141,6 @@ table {
   border-spacing: 0;
 }
 
-.color-black {
-  color: #000000;
-}
-
-.color-white {
-  color: #ffffff;
-}
-
-.bg-black {
-  background-color: #000000;
-}
-
-.bg-white {
-  background-color: #ffffff;
-}
-
 .text-center {
   text-align: center;
 }
@@ -179,6 +163,56 @@ table {
 .text-xl {
   font-size: 21.25rem;
   line-height: 340px;
+}
+
+.days ul {
+  max-width: 882px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.days ul li {
+  padding: 20px 32px;
+  border-radius: 100px;
+  border: solid 1px transparent;
+}
+.days ul li a {
+  text-decoration: none;
+}
+.days ul li:hover {
+  border: solid 1px #ffffff;
+}
+
+* {
+  font-family: Roboto !important;
+  color: #ffffff;
+}
+
+body {
+  background: linear-gradient(73deg, #d9547b, #f8ad48);
+  color: #ffffff;
+  width: 100vh;
+  height: 100vh;
+  margin-left: 202px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.list hr {
+  width: 100%;
+}
+.list .line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list .line .info {
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=main.css.map */
