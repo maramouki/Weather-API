@@ -8,6 +8,8 @@ body {
 	height: 100vh;
 }
 main {
+	display: flex;
+	margin-top: 106px;
 	margin-left: 202px;
 }
 
@@ -38,10 +40,14 @@ main {
 	}
 }
 .temp {
+	position: relative;
 	display: flex;
 	align-items: center;
-	img{
-		
+	margin-left: 27px;
+	img {
+		position: absolute;
+		width: 216px;
+		right: 0;
 	}
 	h3 {
 		font-size: 340px;
