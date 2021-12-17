@@ -1,4 +1,5 @@
 .days {
+	
 	ul {
 		max-width: 882px;
 		display: flex;
@@ -20,7 +21,7 @@
 		}
 	}
 }
-#today {
+#active {
 	background-color: $white;
 	a {
 		color: $black;

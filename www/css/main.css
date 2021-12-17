@@ -184,10 +184,10 @@ table {
   border: solid 1px #ffffff;
 }
 
-#today {
+#active {
   background-color: #ffffff;
 }
-#today a {
+#active a {
   color: #000000;
 }
 
