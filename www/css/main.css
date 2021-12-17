@@ -165,11 +165,15 @@ table {
   line-height: 340px;
 }
 
+.days {
+  padding-bottom: 64px;
+}
 .days ul {
   max-width: 882px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  margin: 0 auto;
 }
 .days ul li {
   padding: 20px 32px;
@@ -210,8 +214,9 @@ table {
 body {
   background: linear-gradient(73deg, #d9547b, #f8ad48);
   color: #ffffff;
-  width: 100vh;
-  height: 100vh;
+}
+
+main {
   margin-left: 202px;
 }
 
