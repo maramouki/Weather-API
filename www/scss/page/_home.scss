@@ -5,12 +5,10 @@
 body {
 	background: linear-gradient(73deg, $rose, $orange);
 	color: $white;
+	height: 100vh;
 }
 main {
 	margin-left: 202px;
-}
-.search {
-	margin-bottom: 106px;
 }
 
 #date {
@@ -37,5 +35,21 @@ main {
 				margin-left: 8px;
 			}
 		}
+	}
+}
+.temp {
+	display: flex;
+	align-items: center;
+	img{
+		
+	}
+	h3 {
+		font-size: 340px;
+		line-height: 340px;
+		/* identical to box height, or 100% */
+
+		text-align: right;
+
+		opacity: 0.2;
 	}
 }
