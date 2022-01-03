@@ -176,22 +176,20 @@ table {
   margin: 0 auto;
 }
 .days ul li {
-  padding: 20px 32px;
-  border-radius: 100px;
-  border: solid 1px transparent;
   margin-right: 16px;
 }
 .days ul li a {
   text-decoration: none;
+  padding: 20px 32px;
+  border-radius: 100px;
+  border: solid 1px transparent;
 }
-.days ul li:hover {
+.days ul li a:hover {
   border: solid 1px #ffffff;
 }
 
-#active {
-  background-color: #ffffff;
-}
 #active a {
+  background-color: #ffffff;
   color: #000000;
 }
 

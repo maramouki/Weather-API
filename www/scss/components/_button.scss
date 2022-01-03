@@ -8,23 +8,23 @@
 		margin: 0 auto;
 
 		li {
-			padding: 20px 32px;
-			border-radius: 100px;
-			border: solid 1px transparent;
 			margin-right: 16px;
 
 			a {
 				text-decoration: none;
+				padding: 20px 32px;
+				border-radius: 100px;
+				border: solid 1px transparent;
 			}
-		}
-		li:hover {
-			border: solid 1px $white;
+			a:hover {
+				border: solid 1px $white;
+			}
 		}
 	}
 }
 #active {
-	background-color: $white;
 	a {
+		background-color: $white;
 		color: $black;
 	}
 }
