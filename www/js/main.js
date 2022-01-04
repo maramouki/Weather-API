@@ -16,7 +16,7 @@ $.ajax(settings).done(function (response) {
 	//Injecter dans le html
 	$("h2#city").text(response.data[0].city_name);
 	$("#date").text(currentDate.toDateString());
-	$(".temp h3 span").text(response.data[0].temp.toFixed(1));
+	$(".temp h3 span").text(response.data[0].temp.toFixed(0));
 	$("#sunrise").text(response.data[0].sunrise);
 	$("#sunset").text(response.data[0].sunset);
 	$("#precip span").text(response.data[0].precip);
