@@ -279,7 +279,7 @@ main {
 .list {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  min-width: 400px;
 }
 .list hr {
   width: 100%;

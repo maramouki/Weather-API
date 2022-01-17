@@ -20,7 +20,7 @@ main {
 .list {
 	display: flex;
 	flex-direction: column;
-	max-width: 400px;
+	min-width: 400px;
 	hr {
 		width: 100%;
 	}
