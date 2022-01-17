@@ -23,4 +23,11 @@ $.ajax(settings).done(function (response) {
 	$("#wind_spd span").text((response.data[0].wind_spd * 3.6).toFixed(2));
 });
 
-$(".search").css("display", "flex");
+$(".search_icon").click(function () {
+	$(".search").css("display", "flex");
+	$(".background").css("display", "block");
+});
+$(".background").click(function () {
+	$(".search").css("display", "none");
+	$(".background").css("display", "none");
+});
