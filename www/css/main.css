@@ -210,12 +210,18 @@ table {
 
 .search {
   position: absolute;
-  bottom: 0;
-  display: flex;
+  bottom: 50%;
+  left: 40%;
+  display: none;
   justify-content: center;
   align-items: center;
+  padding: 8px 24px;
+  border-radius: 34px;
+  background-color: white;
+  z-index: 1;
 }
 .search input {
+  border: none;
   color: #000000;
 }
 .search button {

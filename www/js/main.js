@@ -22,3 +22,5 @@ $.ajax(settings).done(function (response) {
 	$("#precip span").text(response.data[0].precip);
 	$("#wind_spd span").text((response.data[0].wind_spd * 3.6).toFixed(2));
 });
+
+$(".search").css("display", "flex");
